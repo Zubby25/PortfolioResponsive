@@ -1,0 +1,358 @@
+body {
+    margin: 0;
+    font-size: 16px;
+}
+
+/* Header and navigation styles */
+header {
+    padding: 2% 5%;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+
+nav ul li a {
+    font-size: 1rem;
+}
+
+/* Top container and cloud animations */
+.top-container {
+    width: 100%;
+    height: 400px;
+    background-image: url("light.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    padding-top: 20px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+ 
+}
+
+
+
+/* Profile and skills sections */
+    .skills {
+    width: 90%;
+    margin: 0 auto;
+	 background-color:aliceblue;
+	 text-align: center;
+    opacity: 0; 
+    transform: translateY(50px); 
+    transition: opacity 1s ease, transform 1s ease;
+
+}
+
+.skills.animate {
+        opacity: 1; 
+        transform: translateY(0); 
+    }
+
+
+.skill_img {
+    width: 60px;
+}
+
+.profile{
+width: 90%;
+    margin: 0 auto;
+	text-align: center;
+}
+
+/* Buttons and links */
+.btn, .mainbtn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background: #c0bff5;
+	display:flex;
+	justify-content:center;
+
+}
+
+.btn:hover, .mainbtn:hover {
+    background: #30e3cb;
+}
+
+/* Footer section */
+#f {
+    height: 150px;
+}
+
+h1 {
+    color:darkcyan;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+	text-align: right;
+}
+
+#p1 {
+    color:darkcyan;
+    font-family: 'Baloo Chettan 2', cursive;
+	text-align: right;
+	    margin: 0;
+
+}
+
+h2 {
+    color: #0f4c75;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.p2 {
+    line-height: 2;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+}	
+	
+.project1 {
+    width: 100%;
+    height: auto;
+    background: #dbaca9;
+  overflow: hidden; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.project1.animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.project2 {
+    width: 100%;
+    height: auto;
+    background: #D38C18;
+  overflow: hidden; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.project2.animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.project3 {
+    width: 100%;
+    height: auto;
+    background: #cddba9;
+  overflow: hidden; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.project3.animate {
+    opacity: 2;
+    transform: translateY(0);
+}
+
+.project4 {
+    width: 100%;
+    height: auto;
+    background: #7B9004;
+  overflow: hidden; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.project4.animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.project5 {
+    width: 100%;
+    height: auto;
+    background: #f76160;
+  overflow: hidden; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+   opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}	
+	.project5.animate {
+    opacity: 2;
+    transform: translateY(0);
+}
+
+	
+.project_img {
+     width: 100%;
+  max-width: 200px; 
+  height: auto;
+  display: block;
+   margin: 10px auto 20px;
+  
+}
+
+.project2 .project_img,
+.project3 .project_img,
+.project4 .project_img {
+  max-width: 450px; 
+ 
+}
+	
+.contact-me {
+    width: 100%;
+    
+    margin-bottom: 20%;
+}
+
+.head3 {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+     font-size: 1rem;
+    padding: 0;
+}
+
+
+  
+   .navbar-custom {
+            background-color: lightgreen;
+        }
+
+.navbar-custom .navbar-brand,
+        .navbar-custom .navbar-text {
+            color: green;
+        }
+
+
+
+/* Media queries for responsiveness */
+@media screen and (min-width: 768px) {
+    /* Adjustments for larger screens */
+    header {
+        padding: 3% 10%;
+    }
+	
+		
+		
+.nav-link{
+display: inline-block;
+
+}
+    .logo {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+    }
+
+h1 {
+    color:darkcyan;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+	text-align: right;
+}
+
+#p1 {
+    color:darkcyan;
+    font-family: 'Baloo Chettan 2', cursive;
+	text-align: right;
+	 font-size: 35px;
+    margin: 0;
+}
+
+h2 {
+    color: #0f4c75;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.p2 {
+    line-height: 2;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+	}
+
+
+
+    nav ul li a {
+	color: red;
+        font-size: 1.2rem;
+    }
+	
+
+    .top-container {
+        height: 650px;
+        background-size: 100% auto; 
+    }
+    
+    .btn, .mainbtn {
+        font-size: 1.2rem;
+        background: #c0bff5;
+		display:flex;
+	justify-content:center;
+
+    }
+
+    .btn:hover, .mainbtn:hover {
+        background: #30e3cb;
+    }
+
+    #f {
+        height: 220px;
+    }
+
+    .flogo {
+        width: 85px;
+        height: 85px;
+        border-radius: 50%;
+    }
+
+    .link {
+        left: 38%;
+    }
+	
+	.project_img {
+     width: 100%;
+  max-width: 300px; 
+  height: auto;
+  display: block;
+   margin: 10px auto 20px;
+  
+}
+
+.project2 .project_img,
+.project3 .project_img,
+.project4 .project_img {
+  max-width: 600px; 
+ 
+}
+
+    .footer-social-icons ul {
+        top: 40%;
+    }
+
+    .skill_img {
+        width: 60px; /* Adjusted size for larger screens */
+    }
+	
+	.head3 {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+     font-size: 1.5rem;
+    padding: 0;
+}
+
+	
+	.contact-me {
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 20%;
+}
+}
+
+
+
+
